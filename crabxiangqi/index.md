@@ -13,8 +13,9 @@ cách nào.
 - App **không có tài khoản** và không bao giờ hỏi tên, email, số điện thoại hay bất kỳ thông tin
   nào để nhận ra bạn.
 - Ván cờ, lịch sử ván và cài đặt **nằm trên máy bạn**. Chúng tôi không có bản sao nào.
-- App hiện **một dải quảng cáo** của Google AdMob và gửi **số liệu sử dụng ẩn danh** cho Google
-  Analytics for Firebase. Hai dịch vụ này là nơi duy nhất dữ liệu rời khỏi máy.
+- App hiện **một dải quảng cáo** của Google AdMob, gửi **số liệu sử dụng ẩn danh** cho Google
+  Analytics for Firebase, và gửi **báo cáo sự cố** cho Firebase Crashlytics khi app bị lỗi. Ba dịch
+  vụ này của Google là nơi duy nhất dữ liệu rời khỏi máy.
 - Chúng tôi **không bán** dữ liệu của bạn cho ai.
 
 ## 1. Dữ liệu lưu trên máy bạn
@@ -72,33 +73,49 @@ Các sự kiện này không chứa nước đi, tên hay bất cứ thứ gì b
 dạng tổng hợp. Ở Khu vực Kinh tế Châu Âu, Vương quốc Anh và Thuỵ Sĩ, lựa chọn của bạn trong biểu mẫu
 ở mục 2 cũng quyết định Firebase được lưu những gì.
 
-## 4. Chia sẻ dữ liệu
+## 4. Báo cáo sự cố — Firebase Crashlytics
 
-Dữ liệu ở mục 2 và 3 đi tới Google, bên cung cấp hai dịch vụ ấy; với quảng cáo, Google có thể
+Khi app gặp lỗi và bị đóng đột ngột, SDK Firebase Crashlytics gửi cho Google một báo cáo sự cố để
+chúng tôi tìm và sửa lỗi ấy. Báo cáo gồm:
+
+- dấu vết lỗi (stack trace): đoạn code nào đang chạy lúc lỗi xảy ra;
+- trạng thái của app lúc đó, gồm màn hình đang mở và các sự kiện gần nhất ở mục 3;
+- thông tin thiết bị: hãng và đời máy, phiên bản Android, bộ nhớ và dung lượng còn trống, hướng
+  màn hình, máy đã root hay chưa;
+- một mã cài đặt ngẫu nhiên mà Crashlytics tạo cho mỗi lần cài, để đếm bao nhiêu máy gặp cùng một
+  lỗi.
+
+Báo cáo không chứa ván cờ, nước đi hay bất cứ thứ gì bạn nhập vào. Firebase chỉ dùng dữ liệu này để
+cung cấp dịch vụ báo cáo sự cố. Báo cáo được gửi ở mọi nơi, kể cả châu Âu, vì nó chỉ dùng để sửa lỗi
+của app; lựa chọn của bạn trong biểu mẫu ở mục 2 không ảnh hưởng tới nó.
+
+## 5. Chia sẻ dữ liệu
+
+Dữ liệu ở mục 2, 3 và 4 đi tới Google, bên cung cấp các dịch vụ ấy; với quảng cáo, Google có thể
 chia sẻ tiếp dữ liệu ở mục 2 theo chính sách của Google đã dẫn ở đó. Chúng tôi không gửi dữ liệu
 của bạn cho ai khác và không bán nó.
 
-## 5. Bảo mật
+## 6. Bảo mật
 
-Mọi dữ liệu mà hai SDK của Google gửi đi đều được mã hoá trên đường truyền (TLS).
+Mọi dữ liệu mà các SDK của Google gửi đi đều được mã hoá trên đường truyền (TLS).
 
-## 6. Trẻ em
+## 7. Trẻ em
 
 CrabXiangqi dành cho người từ 13 tuổi trở lên và không nhắm tới trẻ em. Chúng tôi không cố ý thu
 thập dữ liệu của trẻ dưới 13 tuổi.
 
-## 7. Quyền của bạn
+## 8. Quyền của bạn
 
-Vì app không có tài khoản, chúng tôi không có cách nào gắn dữ liệu ở mục 2 và 3 với một người cụ
+Vì app không có tài khoản, chúng tôi không có cách nào gắn dữ liệu ở mục 2, 3 và 4 với một người cụ
 thể, và cũng không tra ra được dữ liệu của riêng bạn để xoá theo yêu cầu. Bạn vẫn kiểm soát được:
 xoá dữ liệu trên máy (mục 1), đặt lại mã quảng cáo (mục 2), và — ở châu Âu — đổi lựa chọn đồng ý
-trong app. Mọi câu hỏi khác, hãy viết cho chúng tôi theo địa chỉ ở mục 9.
+trong app. Mọi câu hỏi khác, hãy viết cho chúng tôi theo địa chỉ ở mục 10.
 
-## 8. Thay đổi chính sách
+## 9. Thay đổi chính sách
 
 Khi chính sách này đổi, chúng tôi cập nhật trang này và ngày có hiệu lực ở đầu trang.
 
-## 9. Liên hệ
+## 10. Liên hệ
 
 HaDoSolution — hadosolution@gmail.com
 
@@ -117,8 +134,9 @@ receives it, and how you can change that.
 - The app has **no accounts** and never asks for your name, email, phone number or anything else
   that identifies you.
 - Your games, game history and settings **stay on your device**. We keep no copy.
-- The app shows **one banner ad** from Google AdMob and sends **anonymous usage statistics** to
-  Google Analytics for Firebase. Those two services are the only places data leaves your device.
+- The app shows **one banner ad** from Google AdMob, sends **anonymous usage statistics** to
+  Google Analytics for Firebase, and sends a **crash report** to Firebase Crashlytics when the app
+  fails. Those three Google services are the only places data leaves your device.
 - We **do not sell** your data to anyone.
 
 ## 1. Data stored on your device
@@ -177,32 +195,49 @@ These events contain no moves, names or anything you type. We only look at them 
 the European Economic Area, the United Kingdom and Switzerland, your choice in the form described
 in section 2 also decides what Firebase may store.
 
-## 4. Sharing
+## 4. Crash reports — Firebase Crashlytics
 
-The data in sections 2 and 3 goes to Google, which provides those two services; for ads, Google may
+When the app hits an error and closes unexpectedly, the Firebase Crashlytics SDK sends Google a
+crash report so that we can find and fix the problem. The report contains:
+
+- a stack trace: which part of the code was running when the error happened;
+- the state of the app at that moment, including the open screen and the most recent events from
+  section 3;
+- device information: make and model, Android version, memory and free storage, screen
+  orientation, and whether the device is rooted;
+- a random installation ID that Crashlytics creates for each installation, used to count how many
+  devices hit the same error.
+
+The report contains no games, moves or anything you type. Firebase uses this data only to provide
+its crash reporting service. Crash reports are sent everywhere, including Europe, because they are
+used only to fix the app; your choice in the form described in section 2 does not affect them.
+
+## 5. Sharing
+
+The data in sections 2, 3 and 4 goes to Google, which provides those services; for ads, Google may
 share the data in section 2 further under the Google policy linked there. We send your data to no
 one else, and we do not sell it.
 
-## 5. Security
+## 6. Security
 
-All data sent by the two Google SDKs is encrypted in transit (TLS).
+All data sent by the Google SDKs is encrypted in transit (TLS).
 
-## 6. Children
+## 7. Children
 
 CrabXiangqi is intended for people aged 13 and over and is not directed at children. We do not
 knowingly collect data from children under 13.
 
-## 7. Your rights
+## 8. Your rights
 
-Because the app has no accounts, we have no way to link the data in sections 2 and 3 to a
+Because the app has no accounts, we have no way to link the data in sections 2, 3 and 4 to a
 particular person, so we cannot look up your data to delete it on request. You stay in control:
 clear the data on your device (section 1), reset your advertising ID (section 2), and — in Europe
-— change your consent in the app. For any other question, write to us at the address in section 9.
+— change your consent in the app. For any other question, write to us at the address in section 10.
 
-## 8. Changes to this policy
+## 9. Changes to this policy
 
 When this policy changes, we update this page and the effective date at the top.
 
-## 9. Contact
+## 10. Contact
 
 HaDoSolution — hadosolution@gmail.com
