@@ -2,7 +2,7 @@
 
 # Chính sách quyền riêng tư của CrabXiangqi
 
-Có hiệu lực từ 29/09/2026.
+Có hiệu lực từ 29/09/2026. Cập nhật lần cuối ngày 26/09/2026.
 
 CrabXiangqi là game cờ tướng chơi offline, do **HaDoSolution** phát hành trên Google Play. Chính
 sách này nói rõ app lưu gì trên máy bạn, gửi gì ra ngoài, gửi cho ai, và bạn thay đổi điều đó bằng
@@ -71,7 +71,10 @@ Google](https://policies.google.com/technologies/partner-sites).
 
 Các sự kiện này không chứa nước đi, tên hay bất cứ thứ gì bạn nhập vào. Chúng tôi chỉ xem chúng ở
 dạng tổng hợp. Ở Khu vực Kinh tế Châu Âu, Vương quốc Anh và Thuỵ Sĩ, lựa chọn của bạn trong biểu mẫu
-ở mục 2 cũng quyết định Firebase được lưu những gì.
+ở mục 2 cũng quyết định Firebase được lưu những gì kể từ lúc đó. Biểu mẫu hiện ra sau khi app đã khởi
+động, nên trước khi bạn trả lời, Firebase có thể đã ghi các sự kiện tự động của nó, như lần đầu mở
+app (`first_open`) và một phiên sử dụng bắt đầu (`session_start`). Các sự kiện này chỉ mang các mã
+nhận dạng và vị trí gần đúng nêu ở trên, không có gì về ván cờ của bạn.
 
 ## 4. Báo cáo sự cố — Firebase Crashlytics
 
@@ -123,7 +126,7 @@ HaDoSolution — hadosolution@gmail.com
 
 # CrabXiangqi Privacy Policy
 
-Effective 29 September 2026.
+Effective 29 September 2026. Last updated 26 September 2026.
 
 CrabXiangqi is an offline Xiangqi (Chinese chess) game published on Google Play by
 **HaDoSolution**. This policy explains what the app stores on your device, what it sends out, who
@@ -193,7 +196,10 @@ for Firebase:
 
 These events contain no moves, names or anything you type. We only look at them in aggregate. In
 the European Economic Area, the United Kingdom and Switzerland, your choice in the form described
-in section 2 also decides what Firebase may store.
+in section 2 also decides what Firebase may store from then on. The form appears once the app has
+started, so before you answer it Firebase may already record its automatic events, such as the app
+being opened for the first time (`first_open`) and the start of a session (`session_start`). Those
+carry only the identifiers and approximate location listed above, and nothing about your games.
 
 ## 4. Crash reports — Firebase Crashlytics
 
