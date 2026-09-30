@@ -2,7 +2,7 @@
 
 # Chính sách quyền riêng tư của CrabXiangqi
 
-Có hiệu lực từ 29/09/2026. Cập nhật lần cuối ngày 26/09/2026.
+Có hiệu lực từ 29/09/2026. Cập nhật lần cuối ngày 30/09/2026.
 
 CrabXiangqi là game cờ tướng chơi offline, do **HaDoSolution** phát hành trên Google Play. Chính
 sách này nói rõ app lưu gì trên máy bạn, gửi gì ra ngoài, gửi cho ai, và bạn thay đổi điều đó bằng
@@ -15,7 +15,9 @@ cách nào.
 - Ván cờ, lịch sử ván và cài đặt **nằm trên máy bạn**. Chúng tôi không có bản sao nào.
 - App hiện **một dải quảng cáo** của Google AdMob, gửi **số liệu sử dụng ẩn danh** cho Google
   Analytics for Firebase, và gửi **báo cáo sự cố** cho Firebase Crashlytics khi app bị lỗi. Ba dịch
-  vụ này của Google là nơi duy nhất dữ liệu rời khỏi máy.
+  vụ này của Google là nơi duy nhất dữ liệu rời khỏi máy **tới một bên khác ngoài bạn**.
+- Khi bạn **chơi hai máy qua Wi-Fi**, tên máy và nước đi đi thẳng sang máy của người chơi cùng, trong
+  mạng Wi-Fi của hai bạn. Chúng không đi qua Internet và không tới chúng tôi (mục 5).
 - Chúng tôi **không bán** dữ liệu của bạn cho ai.
 
 ## 1. Dữ liệu lưu trên máy bạn
@@ -26,7 +28,8 @@ App lưu trong bộ nhớ riêng của nó trên máy:
 - ván đang đánh dở, để bạn chơi tiếp sau khi đóng app;
 - lịch sử tối đa 50 ván đã chơi và bảng thống kê thắng thua;
 - tiến độ bài học và cờ thế;
-- ngày mở app lần đầu, dùng để không hiện quảng cáo trong mấy ngày đầu.
+- ngày mở app lần đầu, dùng để không hiện quảng cáo trong mấy ngày đầu;
+- tên máy bạn đặt cho việc chơi qua Wi-Fi, nếu bạn đã sửa nó.
 
 Những dữ liệu này không được gửi cho chúng tôi. Nếu bạn bật **sao lưu của Android**, Android có thể
 sao lưu đúng tệp cài đặt ấy vào tài khoản Google của bạn để khôi phục khi đổi máy. Bản sao lưu do
@@ -98,9 +101,24 @@ Dữ liệu ở mục 2, 3 và 4 đi tới Google, bên cung cấp các dịch v
 chia sẻ tiếp dữ liệu ở mục 2 theo chính sách của Google đã dẫn ở đó. Chúng tôi không gửi dữ liệu
 của bạn cho ai khác và không bán nó.
 
+**Chơi hai máy qua Wi-Fi.** Chế độ này chỉ chạy khi bạn tự mở nó. Hai máy nói chuyện trực tiếp với
+nhau trong mạng Wi-Fi chung, không qua máy chủ nào:
+
+- khi bạn **tạo ván**, app quảng bá tên máy của bạn trong mạng Wi-Fi ấy để máy kia tìm thấy — mọi
+  thiết bị trong cùng mạng đều có thể thấy tên này cho tới khi bạn rời màn tạo ván;
+- trong ván, app gửi sang máy kia tên máy, số phiên bản app, nước đi, thời gian còn lại, lời cầu hoà
+  và xin thua; màn chờ đối thủ hiện địa chỉ IP trong mạng nội bộ của máy bạn để người kia gõ vào.
+
+Tên máy mặc định lấy từ tên thiết bị trong cài đặt của máy, và bạn sửa được nó ở màn tạo ván hay tìm
+ván — nếu tên thiết bị có tên thật của bạn, hãy đổi nó trước khi chơi ở mạng Wi-Fi công cộng. Ván
+chơi qua Wi-Fi được lưu vào lịch sử trên máy bạn như mọi ván khác. Chúng tôi không nhận được bất kỳ
+dữ liệu nào trong số này.
+
 ## 6. Bảo mật
 
-Mọi dữ liệu mà các SDK của Google gửi đi đều được mã hoá trên đường truyền (TLS).
+Mọi dữ liệu mà các SDK của Google gửi đi đều được mã hoá trên đường truyền (TLS). Dữ liệu của chế độ
+chơi qua Wi-Fi (mục 5) **không** được mã hoá: nó chỉ đi trong mạng nội bộ của bạn, nhưng thiết bị khác
+trong cùng mạng về kỹ thuật có thể đọc được.
 
 ## 7. Trẻ em
 
@@ -126,7 +144,7 @@ HaDoSolution — hadosolution@gmail.com
 
 # CrabXiangqi Privacy Policy
 
-Effective 29 September 2026. Last updated 26 September 2026.
+Effective 29 September 2026. Last updated 30 September 2026.
 
 CrabXiangqi is an offline Xiangqi (Chinese chess) game published on Google Play by
 **HaDoSolution**. This policy explains what the app stores on your device, what it sends out, who
@@ -139,7 +157,10 @@ receives it, and how you can change that.
 - Your games, game history and settings **stay on your device**. We keep no copy.
 - The app shows **one banner ad** from Google AdMob, sends **anonymous usage statistics** to
   Google Analytics for Firebase, and sends a **crash report** to Firebase Crashlytics when the app
-  fails. Those three Google services are the only places data leaves your device.
+  fails. Those three Google services are the only places data leaves your device **for anyone other
+  than you**.
+- When you **play two devices over Wi-Fi**, your device name and your moves go straight to the other
+  player's device, on your shared Wi-Fi. They never cross the internet and never reach us (section 5).
 - We **do not sell** your data to anyone.
 
 ## 1. Data stored on your device
@@ -150,7 +171,8 @@ The app keeps, in its own private storage on your device:
 - an unfinished game, so you can resume it after closing the app;
 - a history of up to 50 finished games, and your win/loss statistics;
 - your progress through the lessons and puzzles;
-- the date you first opened the app, used to show no ads during the first few days.
+- the date you first opened the app, used to show no ads during the first few days;
+- the device name you set for playing over Wi-Fi, if you changed it.
 
 None of this is sent to us. If you turn on **Android backup**, Android may back up that settings
 file to your Google account so it can be restored on a new device. Google holds that backup under
@@ -224,9 +246,25 @@ The data in sections 2, 3 and 4 goes to Google, which provides those services; f
 share the data in section 2 further under the Google policy linked there. We send your data to no
 one else, and we do not sell it.
 
+**Playing two devices over Wi-Fi.** This mode runs only when you open it. The two devices talk to each
+other directly on your shared Wi-Fi, through no server:
+
+- when you **create a game**, the app announces your device name on that Wi-Fi so the other device
+  can find it — any device on the same network can see this name until you leave the create screen;
+- during the game, the app sends the other device your device name, the app version, your moves, the
+  time left, draw offers and resignations; the waiting screen shows your device's local IP address so
+  the other player can type it in.
+
+The default device name comes from your device's own settings, and you can change it on the create
+and find screens — if your device name contains your real name, change it before playing on public
+Wi-Fi. A game played over Wi-Fi is saved to the history on your device like any other. We receive
+none of this data.
+
 ## 6. Security
 
-All data sent by the Google SDKs is encrypted in transit (TLS).
+All data sent by the Google SDKs is encrypted in transit (TLS). Data from playing over Wi-Fi
+(section 5) is **not** encrypted: it stays on your local network, but other devices on the same
+network could technically read it.
 
 ## 7. Children
 
