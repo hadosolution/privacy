@@ -260,3 +260,5 @@ When this policy changes, we update this page and the effective date at the top.
 ## 12. Contact
 
 HaDoSolution — hadosolution@gmail.com
+
+
