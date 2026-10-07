@@ -172,7 +172,8 @@ address, and your interactions with ads, in order to select and measure ads.
 
 If you are in the European Economic Area, the United Kingdom or Switzerland, the
 app shows a consent form before showing personalised ads, and you can change
-that choice at any time from the side menu → **Quyền riêng tư quảng cáo** (Ad privacy; the app's menus are in Vietnamese).
+that choice at any time from the side menu → **Quyền riêng tư quảng cáo** (Ad
+privacy; the app's menus are in Vietnamese).
 
 Google's policy: https://policies.google.com/technologies/partner-sites
 
