@@ -2,7 +2,7 @@
 
 # Chính sách quyền riêng tư của Lời Bài Hát
 
-Có hiệu lực từ 06/10/2026. Cập nhật lần cuối ngày 06/10/2026.
+Có hiệu lực từ 12/10/2026. Cập nhật lần cuối ngày 12/10/2026.
 
 Lời Bài Hát là ứng dụng tra cứu lời bài hát Việt Nam xem được khi không có mạng, do
 **HaDoSolution** phát hành trên Google Play. Chính sách này nói rõ app lưu gì trên máy bạn, gửi gì
@@ -15,7 +15,8 @@ ra ngoài, gửi cho ai, và bạn thay đổi điều đó bằng cách nào.
 - Bài yêu thích, lịch sử tìm kiếm và cài đặt **nằm trên máy bạn**. Chúng tôi không có bản sao nào.
 - App hiện **quảng cáo** của Google AdMob, gửi **số liệu sử dụng** cho Google Analytics for
   Firebase và **báo cáo sự cố** cho Firebase Crashlytics.
-- Khi bạn **gửi yêu cầu bài hát**, nội dung bạn gõ được gửi về máy chủ của chúng tôi (mục 5).
+- Khi bạn **gửi yêu cầu bài hát**, nội dung bạn gõ được gửi về máy chủ của chúng tôi, kèm một
+  mã ngẫu nhiên của lần cài để app tra lại bài đã có chưa (mục 5).
 - Chúng tôi **không bán** dữ liệu của bạn cho ai.
 
 ## 1. Dữ liệu lưu trên máy bạn
@@ -25,6 +26,7 @@ App lưu trong bộ nhớ riêng của nó trên máy:
 - bộ lời bài hát đi kèm app;
 - bài bạn đánh dấu yêu thích và các bài bạn đã xem;
 - các từ khoá bạn đã tìm;
+- các yêu cầu bài hát bạn đã gửi và trạng thái máy chủ báo về;
 - cài đặt: cỡ chữ, số bài hiển thị, hiện hay ẩn nút yêu cầu bài hát.
 
 Những dữ liệu này không được gửi cho chúng tôi. Muốn xoá hết, hãy gỡ app hoặc vào *Cài đặt Android →
@@ -84,9 +86,13 @@ Báo cáo không chứa bài yêu thích, từ khoá tìm kiếm hay bất cứ 
 ## 5. Yêu cầu bài hát và góp ý
 
 **Yêu cầu bài hát.** Khi bạn bấm *Gửi* ở màn Yêu cầu bài hát, app gửi về máy chủ của HaDoSolution
-đúng những gì bạn điền — tên bài, tác giả, ca sĩ, ghi chú — cùng tên app, qua kết nối mã
-hoá HTTPS. Máy chủ nhận thêm địa chỉ IP của bạn như mọi kết nối Internet. Chúng tôi dùng yêu cầu chỉ
-để chọn bài bổ sung vào app, và không gắn nó với người nào. Đừng ghi thông tin cá nhân vào ô ghi chú.
+đúng những gì bạn điền — tên bài, tác giả, ca sĩ, ghi chú — cùng tên và phiên bản app, qua kết nối mã hoá
+HTTPS. Kèm theo là một **mã ngẫu nhiên app tạo cho mỗi lần cài**, chỉ dùng để tra trạng thái các
+yêu cầu bài hát bạn đã gửi (màn *Yêu cầu của tôi*): app hỏi máy chủ yêu cầu nào đã có bài, và máy
+chủ trả lời theo mã đó. Mã này không chứa tên, email hay số điện thoại của bạn; gỡ rồi cài lại app
+là có mã mới. Máy chủ nhận thêm địa chỉ IP của bạn như mọi kết nối Internet. Chúng tôi dùng yêu cầu
+để chọn bài bổ sung vào app và báo lại trong app khi bài đã có. Đừng ghi thông tin cá nhân vào ô
+ghi chú.
 
 **Góp ý qua email.** Mục góp ý mở ứng dụng email của bạn. Khi bạn gửi, chúng tôi nhận được địa chỉ
 email và nội dung thư, và chỉ dùng chúng để trả lời bạn.
@@ -101,8 +107,8 @@ chỉ tới chúng tôi. Chúng tôi không gửi dữ liệu của bạn cho ai
 
 App xin quyền truy cập Internet và trạng thái mạng (để hiện quảng cáo và gửi yêu cầu bài hát), quyền
 rung (khi nhấn giữ một bài để lưu yêu thích), và quyền đọc và ghi bộ nhớ chung (cho mục sao lưu ở mục 1).
-Bản cài đặt còn khai quyền đọc trạng thái điện thoại từ các phiên bản cũ; app **không** đọc số điện
-thoại, mã IMEI hay danh bạ của bạn.
+App không xin quyền đọc trạng thái điện thoại, và **không** đọc số điện thoại, mã IMEI hay danh bạ
+của bạn.
 
 ## 8. Bảo mật
 
@@ -132,7 +138,7 @@ HaDoSolution — hadosolution@gmail.com
 
 # Lời Bài Hát Privacy Policy
 
-Effective 6 October 2026. Last updated 6 October 2026.
+Effective 12 October 2026. Last updated 12 October 2026.
 
 Lời Bài Hát is an offline lyrics app for Vietnamese songs, published on Google Play by **HaDoSolution**. This policy explains what the app stores on your device, what it
 sends out, who receives it, and how you can change that.
@@ -144,7 +150,8 @@ sends out, who receives it, and how you can change that.
 - Your favourite songs, search history and settings **stay on your device**. We keep no copy.
 - The app shows **ads** from Google AdMob, sends **usage statistics** to Google Analytics for
   Firebase and **crash reports** to Firebase Crashlytics.
-- When you **request a song**, what you type is sent to our server (section 5).
+- When you **request a song**, what you type is sent to our server, with a random per-install
+  code the app uses to check whether the song is ready (section 5).
 - We **do not sell** your data to anyone.
 
 ## 1. Data stored on your device
@@ -154,6 +161,7 @@ The app keeps, in its own private storage on your device:
 - the lyrics that ship with the app;
 - the songs you mark as favourites and the songs you have viewed;
 - the words you searched for;
+- the song requests you sent and the status the server reported;
 - your settings: text size, number of songs shown, showing or hiding the song request button.
 
 None of this is sent to us. To erase everything, uninstall the app or go to *Android Settings →
@@ -215,9 +223,13 @@ The report contains no favourites, searches or anything you type.
 ## 5. Song requests and feedback
 
 **Song requests.** When you tap *Send* on the song request screen, the app sends HaDoSolution's
-server exactly what you filled in — title, composer, singer, notes — together with the app
-name, over an encrypted HTTPS connection. Like any internet connection, the server also sees your IP
-address. We use requests only to choose which songs to add, and we do not link them to any person.
+server exactly what you filled in — title, composer, singer, notes — together with the app name and
+version, over an encrypted HTTPS connection. With it goes a **random code the app creates once per
+install**, used only to look up the status of the song requests you sent (the *Yêu cầu của tôi*
+screen): the app asks the server which requests now have a song, and the server answers for that
+code. The code holds nothing about you — not your name, email or phone number — and reinstalling
+the app creates a new one. Like any internet connection, the server also sees your IP address. We
+use requests to choose which songs to add and to tell you in the app when a song is available.
 Please do not put personal information in the notes field.
 
 **Feedback by email.** The feedback option opens your email app. When you send a message we receive
@@ -233,8 +245,8 @@ feedback emails reach only us. We send your data to no one else, and we do not s
 
 The app asks for internet and network-state access (to show ads and send song requests), vibration
 (when you long-press a song to save it as a favourite), and read and write access to shared storage (for
-the backup in section 1). The installed app also still declares a phone-state permission from older
-versions; the app does **not** read your phone number, IMEI or contacts.
+the backup in section 1). The app does not ask for phone-state access,
+and does **not** read your phone number, IMEI or contacts.
 
 ## 8. Security
 
@@ -260,5 +272,3 @@ When this policy changes, we update this page and the effective date at the top.
 ## 12. Contact
 
 HaDoSolution — hadosolution@gmail.com
-
-
