@@ -2,40 +2,54 @@
 
 # Chính sách quyền riêng tư của Lời Bài Hát
 
-Có hiệu lực từ 12/10/2026. Cập nhật lần cuối ngày 12/10/2026.
+Có hiệu lực từ 28/10/2026. Cập nhật lần cuối ngày 28/10/2026.
 
 Lời Bài Hát là ứng dụng tra cứu lời bài hát Việt Nam xem được khi không có mạng, do
 **HaDoSolution** phát hành trên Google Play. Chính sách này nói rõ app lưu gì trên máy bạn, gửi gì
 ra ngoài, gửi cho ai, và bạn thay đổi điều đó bằng cách nào.
 
+Chính sách áp dụng cho **phiên bản 3.0.0 trở đi**. Trong thời gian bản 3.0.0 được phát hành dần, một
+số máy còn chạy phiên bản 2.6; chỗ nào phiên bản 2.6 làm khác, chính sách ghi rõ ở đó. Bạn xem
+phiên bản đang dùng ở *Cài đặt → Thông tin ứng dụng → Phiên bản*.
+
 ## Tóm tắt
 
 - App **không có tài khoản** và không bao giờ hỏi tên, email, số điện thoại hay bất kỳ thông tin
   nào để nhận ra bạn.
-- Bài yêu thích, lịch sử tìm kiếm và cài đặt **nằm trên máy bạn**. Chúng tôi không có bản sao nào.
-- App hiện **quảng cáo** của Google AdMob, gửi **số liệu sử dụng** cho Google Analytics for
-  Firebase và **báo cáo sự cố** cho Firebase Crashlytics.
-- Khi bạn **gửi yêu cầu bài hát**, nội dung bạn gõ được gửi về máy chủ của chúng tôi, kèm một
-  mã ngẫu nhiên của lần cài để app tra lại bài đã có chưa (mục 5).
+- Bài yêu thích, lịch sử xem, lịch sử tìm kiếm và cài đặt **nằm trên máy bạn**. Chúng tôi không có
+  bản sao nào.
+- App hiện **quảng cáo** của Google AdMob, gửi **số liệu sử dụng** cho Google Analytics for Firebase
+  và **báo cáo sự cố** cho Firebase Crashlytics.
+- Khi bạn **gửi yêu cầu bài hát**, nội dung bạn gõ được gửi về máy chủ của chúng tôi, kèm một mã
+  ngẫu nhiên của lần cài để app báo cho bạn khi bài đã có (mục 5).
+- App **tải dữ liệu bài hát mới** từ máy chủ của chúng tôi hoặc từ GitHub; việc tải không gửi gì về
+  bạn (mục 6).
 - Chúng tôi **không bán** dữ liệu của bạn cho ai.
 
 ## 1. Dữ liệu lưu trên máy bạn
 
 App lưu trong bộ nhớ riêng của nó trên máy:
 
-- bộ lời bài hát đi kèm app;
-- bài bạn đánh dấu yêu thích và các bài bạn đã xem;
+- bộ lời bài hát đi kèm app, và các bản dữ liệu mới app đã tải về (mục 6);
+- bài bạn đánh dấu yêu thích, và các bài bạn đã mở cùng thời điểm mở;
 - các từ khoá bạn đã tìm;
-- các yêu cầu bài hát bạn đã gửi và trạng thái máy chủ báo về;
-- cài đặt: cỡ chữ, số bài hiển thị, hiện hay ẩn nút yêu cầu bài hát.
+- các yêu cầu bài hát bạn đã gửi, trạng thái máy chủ báo về, và bước nào app đã báo cho bạn;
+- cài đặt: cỡ chữ, số bài hiển thị, hiện hay ẩn nút yêu cầu bài hát, tự tải dữ liệu mới.
 
-Những dữ liệu này không được gửi cho chúng tôi. Muốn xoá hết, hãy gỡ app hoặc vào *Cài đặt Android →
-Ứng dụng → Lời Bài Hát → Bộ nhớ → Xoá dữ liệu*.
+Những dữ liệu này không được gửi cho chúng tôi. Bạn xoá lịch sử tìm kiếm và lịch sử đã xem ở màn
+*Cài đặt*. Muốn xoá hết, hãy gỡ app hoặc vào *Cài đặt Android → Ứng dụng → Lời Bài Hát → Bộ nhớ →
+Xoá dữ liệu*.
 
-**Sao lưu ra thẻ nhớ.** Nếu bạn bấm *Sao lưu* trong màn Cài đặt, app ghi danh sách bài yêu thích
-ra một tệp ở thư mục gốc của bộ nhớ chung. Tệp này nằm ngoài bộ nhớ riêng của app, nên ứng dụng khác
-có quyền đọc bộ nhớ cũng đọc được nó; nó chỉ chứa danh sách bài, không có gì về bạn. Từ Android 10
-trở đi, Android không cho app ghi vào đó nữa, nên mục này không còn tạo ra tệp nào.
+**Sao lưu khi đổi máy.** Nếu bạn bật sao lưu của Android (*Cài đặt Android → Google → Sao lưu*),
+Android tự sao lưu bài yêu thích, lịch sử, các yêu cầu bài hát đã gửi và cài đặt của app vào tài
+khoản Google **của bạn**, và chép chúng sang máy mới khi bạn chuyển máy. Bản sao lưu do Google lưu
+giữ theo cài đặt của bạn; chúng tôi không đọc được nó. Bộ lời bài hát không được sao lưu vì máy mới
+tải lại cùng app.
+
+*Phiên bản 2.6:* không dùng sao lưu của Android. Mục *Sao lưu* trong màn Cài đặt ghi danh sách bài
+yêu thích ra một tệp ở thư mục gốc của bộ nhớ chung — nơi ứng dụng khác có quyền đọc bộ nhớ cũng
+đọc được; tệp chỉ chứa danh sách bài. Từ Android 10 trở đi, Android không cho app ghi vào đó nữa,
+nên mục này không còn tạo ra tệp nào.
 
 ## 2. Quảng cáo — Google AdMob
 
@@ -52,28 +66,37 @@ Google dùng các dữ liệu này để hiện quảng cáo, đo hiệu quả q
 xử lý chúng nằm ở [Cách Google sử dụng thông tin từ các trang web hoặc ứng dụng sử dụng dịch vụ của
 Google](https://policies.google.com/technologies/partner-sites).
 
-**Bạn có thể** đặt lại hoặc xoá mã quảng cáo ở *Cài đặt Android → Google → Quảng cáo* (tên mục khác
-nhau đôi chút giữa các máy); khi mã quảng cáo bị xoá, quảng cáo không còn được cá nhân hoá theo mã
-đó. Phiên bản hiện tại của app chưa có biểu mẫu xin đồng ý dành cho người dùng ở Khu vực Kinh tế
-Châu Âu, Vương quốc Anh và Thuỵ Sĩ; nếu bạn ở đó, cách trên là cách để tắt quảng cáo cá nhân hoá.
+**Nếu bạn ở Khu vực Kinh tế Châu Âu, Vương quốc Anh hoặc Thuỵ Sĩ**, lần đầu mở app sẽ hiện biểu mẫu
+của Google để bạn đồng ý hoặc từ chối quảng cáo cá nhân hoá trước khi quảng cáo được tải. Bạn đổi
+lựa chọn đó bất cứ lúc nào ở *Cài đặt → Quyền riêng tư quảng cáo*; lựa chọn cũng được chuyển cho
+Google Analytics for Firebase (mục 3).
 
-## 3. Số liệu sử dụng — Google Analytics for Firebase
+**Ở mọi nơi**, bạn có thể đặt lại hoặc xoá mã quảng cáo ở *Cài đặt Android → Google → Quảng cáo*
+(tên mục khác nhau đôi chút giữa các máy); khi mã quảng cáo bị xoá, quảng cáo không còn được cá nhân
+hoá theo mã đó.
 
-Để biết app được dùng thế nào, SDK Google Analytics for Firebase tự gửi cho Google:
+*Phiên bản 2.6:* không có biểu mẫu đồng ý; cách đặt lại mã quảng cáo ở trên là cách tắt quảng cáo cá
+nhân hoá.
+
+## 3. Số liệu sử dụng và báo cáo sự cố — Google Analytics for Firebase, Firebase Crashlytics
+
+**Số liệu sử dụng.** Để biết app được dùng thế nào, SDK Google Analytics for Firebase tự gửi cho
+Google:
 
 - mã cài đặt ngẫu nhiên (app-instance ID) mà Firebase tự tạo cho mỗi lần cài, và mã quảng cáo
   Android;
 - vị trí gần đúng, do Google suy ra từ địa chỉ IP;
-- các sự kiện tự động: lần đầu mở app, phiên sử dụng, màn hình đã mở, cập nhật app.
+- các sự kiện tự động: lần đầu mở app, phiên sử dụng, màn hình đã mở, cập nhật app;
+- một lần duy nhất sau khi nâng cấp lên 3.0.0: **số** bài yêu thích đã được chuyển sang bản mới — chỉ
+  là con số, không có tên bài.
 
-App không gửi thêm sự kiện riêng nào: không có tên bài bạn xem hay từ khoá bạn tìm. Các sự kiện này
-không chứa tên, email hay bất cứ thứ gì nhận ra bạn. Chúng tôi chỉ xem chúng ở dạng
-tổng hợp.
+App không gửi tên bài bạn xem hay từ khoá bạn tìm. Các sự kiện này không chứa tên, email hay bất cứ
+thứ gì nhận ra bạn. Chúng tôi chỉ xem chúng ở dạng tổng hợp.
 
-## 4. Báo cáo sự cố — Firebase Crashlytics
+*Phiên bản 2.6* gửi đúng các sự kiện tự động ở trên, trừ số bài yêu thích chuyển sang bản mới.
 
-Khi app gặp lỗi và bị đóng đột ngột, SDK Firebase Crashlytics gửi cho Google một báo cáo sự cố để
-chúng tôi tìm và sửa lỗi ấy. Báo cáo gồm:
+**Báo cáo sự cố.** Khi app gặp lỗi và bị đóng đột ngột, SDK Firebase Crashlytics gửi cho Google một
+báo cáo sự cố để chúng tôi tìm và sửa lỗi ấy. Báo cáo gồm:
 
 - dấu vết lỗi (stack trace): đoạn code nào đang chạy lúc lỗi xảy ra;
 - thông tin thiết bị: hãng và đời máy, phiên bản Android, bộ nhớ và dung lượng còn trống, hướng
@@ -83,36 +106,60 @@ chúng tôi tìm và sửa lỗi ấy. Báo cáo gồm:
 
 Báo cáo không chứa bài yêu thích, từ khoá tìm kiếm hay bất cứ thứ gì bạn gõ.
 
+## 4. Quyền trên máy
+
+App xin quyền truy cập Internet và trạng thái mạng (để hiện quảng cáo, gửi yêu cầu bài hát và tải
+dữ liệu bài hát mới), quyền rung (khi nhấn giữ một bài để lưu yêu thích), và quyền dùng mã quảng cáo
+(cho mục 2). Thư viện chạy việc nền của Android thêm quyền giữ máy thức trong lúc một lần tải dữ liệu
+đang chạy. App **không** xin quyền đọc bộ nhớ chung, quyền thông báo hay quyền đọc trạng thái điện
+thoại, và không đọc số điện thoại, mã IMEI hay danh bạ của bạn.
+
+*Phiên bản 2.6* xin thêm quyền đọc và ghi bộ nhớ chung cho mục sao lưu cũ ở mục 1.
+
 ## 5. Yêu cầu bài hát và góp ý
 
 **Yêu cầu bài hát.** Khi bạn bấm *Gửi* ở màn Yêu cầu bài hát, app gửi về máy chủ của HaDoSolution
-đúng những gì bạn điền — tên bài, tác giả, ca sĩ, ghi chú — cùng tên và phiên bản app, qua kết nối mã hoá
-HTTPS. Kèm theo là một **mã ngẫu nhiên app tạo cho mỗi lần cài**, chỉ dùng để tra trạng thái các
-yêu cầu bài hát bạn đã gửi (màn *Yêu cầu của tôi*): app hỏi máy chủ yêu cầu nào đã có bài, và máy
-chủ trả lời theo mã đó. Mã này không chứa tên, email hay số điện thoại của bạn; gỡ rồi cài lại app
-là có mã mới. Máy chủ nhận thêm địa chỉ IP của bạn như mọi kết nối Internet. Chúng tôi dùng yêu cầu
+đúng những gì bạn điền — tên bài, tác giả, ca sĩ, ghi chú — cùng tên và phiên bản app, qua
+kết nối mã hoá HTTPS. Kèm theo là một **mã ngẫu nhiên app tạo cho mỗi lần cài**, chỉ dùng để tra
+trạng thái các yêu cầu bạn đã gửi.
+
+Khi bạn mở app, nếu còn yêu cầu đang được xử lý, app hỏi máy chủ theo mã đó (tối đa mỗi giờ một
+lần) yêu cầu nào đã sang bước mới — đã tiếp nhận, đang soạn lời, đã có bài hay không thực hiện được
+— rồi báo cho bạn ngay trong app. App **không** gửi thông báo đẩy và không xin quyền thông báo.
+
+Mã này không chứa tên, email hay số điện thoại của bạn; gỡ rồi cài lại app là có mã mới (trừ khi
+Android khôi phục bản sao lưu ở mục 1, khi đó máy mới dùng tiếp mã cũ để bạn vẫn theo dõi được yêu
+cầu đã gửi). Máy chủ nhận thêm địa chỉ IP của bạn như mọi kết nối Internet. Chúng tôi dùng yêu cầu
 để chọn bài bổ sung vào app và báo lại trong app khi bài đã có. Đừng ghi thông tin cá nhân vào ô
 ghi chú.
 
 **Góp ý qua email.** Mục góp ý mở ứng dụng email của bạn. Khi bạn gửi, chúng tôi nhận được địa chỉ
 email và nội dung thư, và chỉ dùng chúng để trả lời bạn.
 
-## 6. Chia sẻ dữ liệu
+## 6. Tải dữ liệu bài hát mới
 
-Dữ liệu ở mục 2, 3 và 4 đi tới Google, bên cung cấp các dịch vụ ấy; với quảng cáo, Google có thể
-chia sẻ tiếp dữ liệu ở mục 2 theo chính sách của Google đã dẫn ở đó. Yêu cầu bài hát và thư góp ý
-chỉ tới chúng tôi. Chúng tôi không gửi dữ liệu của bạn cho ai khác và không bán nó.
+*Từ phiên bản 3.0.0.* Để có bài mới mà không phải chờ bản cập nhật trên Google Play, app kiểm tra
+mỗi ngày một lần khi máy có Wi-Fi — hoặc khi bạn bấm *Cập nhật dữ liệu* trong Cài đặt — xem có bản
+dữ liệu bài hát mới không, rồi tải về. Bạn tắt việc tự tải ở *Cài đặt → Tự động tải dữ liệu mới*.
 
-## 7. Quyền trên máy
+Dữ liệu được tải từ máy chủ của HaDoSolution (`api.code2smile.com`), hoặc từ GitHub khi máy chủ của
+chúng tôi không trả lời. Đây là các tệp tĩnh: app chỉ xin tệp, **không gửi mã nào về bạn**. Như mọi
+kết nối Internet, máy chủ trả tệp — của chúng tôi, hoặc của GitHub, Inc. — nhận địa chỉ IP của máy
+bạn; GitHub xử lý dữ liệu đó theo [Tuyên bố quyền riêng tư của
+GitHub](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
+Dữ liệu tải về được ký số và kiểm tra trước khi dùng.
 
-App xin quyền truy cập Internet và trạng thái mạng (để hiện quảng cáo và gửi yêu cầu bài hát), quyền
-rung (khi nhấn giữ một bài để lưu yêu thích), và quyền đọc và ghi bộ nhớ chung (cho mục sao lưu ở mục 1).
-App không xin quyền đọc trạng thái điện thoại, và **không** đọc số điện thoại, mã IMEI hay danh bạ
-của bạn.
+## 7. Chia sẻ dữ liệu
+
+Dữ liệu ở mục 2 và 3 đi tới Google, bên cung cấp các dịch vụ ấy; với quảng cáo, Google có thể chia
+sẻ tiếp dữ liệu ở mục 2 theo chính sách của Google đã dẫn ở đó. Yêu cầu bài hát và thư góp ý chỉ tới
+chúng tôi. Ngoài địa chỉ IP mà GitHub nhận khi app tải dữ liệu (mục 6), chúng tôi không gửi dữ liệu
+của bạn cho ai khác và không bán nó.
 
 ## 8. Bảo mật
 
-Mọi dữ liệu mà các SDK của Google gửi đi, và mọi yêu cầu bài hát, đều được mã hoá trên đường truyền.
+Mọi dữ liệu mà các SDK của Google gửi đi, mọi yêu cầu bài hát và mọi lần tải dữ liệu bài hát đều đi
+qua kết nối mã hoá.
 
 ## 9. Trẻ em
 
@@ -121,10 +168,11 @@ Lời Bài Hát không nhắm tới trẻ em dưới 13 tuổi. Chúng tôi khô
 
 ## 10. Quyền của bạn
 
-Vì app không có tài khoản, chúng tôi không có cách nào gắn dữ liệu ở mục 2, 3 và 4 với một người
-cụ thể, nên cũng không tra ra được dữ liệu của riêng bạn để xoá theo yêu cầu. Bạn vẫn kiểm soát
-được: xoá dữ liệu trên máy (mục 1) và đặt lại mã quảng cáo (mục 2). Muốn xoá một yêu cầu bài hát hay
-thư góp ý đã gửi, hoặc có câu hỏi khác, hãy viết cho chúng tôi theo địa chỉ ở mục 12.
+Vì app không có tài khoản, chúng tôi không có cách nào gắn dữ liệu ở mục 2 và 3 với một người cụ
+thể, nên cũng không tra ra được dữ liệu của riêng bạn để xoá theo yêu cầu. Bạn vẫn kiểm soát được:
+xoá lịch sử hoặc toàn bộ dữ liệu trên máy (mục 1), đặt lại mã quảng cáo (mục 2), tắt tự tải dữ liệu
+(mục 6). Muốn xoá một yêu cầu bài hát hay thư góp ý đã gửi, hoặc có câu hỏi khác, hãy viết cho chúng
+tôi theo địa chỉ ở mục 12.
 
 ## 11. Thay đổi chính sách
 
@@ -138,40 +186,56 @@ HaDoSolution — hadosolution@gmail.com
 
 # Lời Bài Hát Privacy Policy
 
-Effective 12 October 2026. Last updated 12 October 2026.
+Effective 28 October 2026. Last updated 28 October 2026.
 
-Lời Bài Hát is an offline lyrics app for Vietnamese songs, published on Google Play by **HaDoSolution**. This policy explains what the app stores on your device, what it
+Lời Bài Hát is an offline lyrics app for Vietnamese songs, published on
+Google Play by **HaDoSolution**. This policy explains what the app stores on your device, what it
 sends out, who receives it, and how you can change that.
+
+This policy covers **version 3.0.0 and later**. While version 3.0.0 is being rolled out, some devices
+still run version 2.6; wherever version 2.6 behaves differently, the policy says so. You can see your
+version under *Settings → App information → Version*.
 
 ## In short
 
 - The app has **no accounts** and never asks for your name, email, phone number or anything else
   that identifies you.
-- Your favourite songs, search history and settings **stay on your device**. We keep no copy.
+- Your favourite songs, viewing history, search history and settings **stay on your device**. We
+  keep no copy.
 - The app shows **ads** from Google AdMob, sends **usage statistics** to Google Analytics for
   Firebase and **crash reports** to Firebase Crashlytics.
-- When you **request a song**, what you type is sent to our server, with a random per-install
-  code the app uses to check whether the song is ready (section 5).
+- When you **request a song**, what you type is sent to our server, with a random per-install code
+  the app uses to tell you when the song is ready (section 5).
+- The app **downloads new song data** from our server or from GitHub; downloading sends nothing about
+  you (section 6).
 - We **do not sell** your data to anyone.
 
 ## 1. Data stored on your device
 
 The app keeps, in its own private storage on your device:
 
-- the lyrics that ship with the app;
-- the songs you mark as favourites and the songs you have viewed;
+- the lyrics that ship with the app, and any newer song data it has downloaded (section 6);
+- the songs you mark as favourites, and the songs you opened and when;
 - the words you searched for;
-- the song requests you sent and the status the server reported;
-- your settings: text size, number of songs shown, showing or hiding the song request button.
+- the song requests you sent, the status the server reported, and which step the app has already
+  told you about;
+- your settings: text size, number of songs shown, showing or hiding the song request button,
+  downloading new data automatically.
 
-None of this is sent to us. To erase everything, uninstall the app or go to *Android Settings →
-Apps → Lời Bài Hát → Storage → Clear data*.
+None of this is sent to us. You can clear your search history and viewing history in the *Settings*
+screen. To erase everything, uninstall the app or go to *Android Settings → Apps → Lời Bài Hát →
+Storage → Clear data*.
 
-**Backup to the SD card.** If you tap *Backup* in the settings screen, the app writes your list of
-favourite songs to a file at the root of shared storage. That file lives outside the app's private
-storage, so other apps allowed to read storage can read it too; it holds only the list of songs and
-nothing about you. From Android 10 onwards Android no longer lets the app write there, so this option
-no longer creates any file.
+**Backup when you change phones.** If you turn on Android backup (*Android Settings → Google →
+Backup*), Android backs up the app's favourites, history, sent song requests and settings to **your**
+Google account, and copies them to your new phone when you switch. Google keeps that backup according
+to your settings; we cannot read it. The lyrics are not backed up, because the new phone downloads
+them with the app.
+
+*Version 2.6:* does not use Android backup. Its *Backup* option in the settings screen writes your
+list of favourite songs to a file at the root of shared storage, where other apps allowed to read
+storage can read it too; the file holds only the list of songs. From Android 10 onwards Android no
+longer lets the app write there, so this option no longer creates any file.
 
 ## 2. Ads — Google AdMob
 
@@ -188,29 +252,38 @@ Google uses this data to serve ads, measure them and prevent fraud. How Google h
 described in [How Google uses information from sites or apps that use our
 services](https://policies.google.com/technologies/partner-sites).
 
-**You can** reset or delete your advertising ID in *Android Settings → Google → Ads* (the exact menu
-name varies slightly between devices); once it is deleted, ads are no longer personalised by that
-ID. The current version of the app does not yet show a consent form for users in the European
-Economic Area, the United Kingdom and Switzerland; if you are there, the setting above is how you
-turn off personalised ads.
+**If you are in the European Economic Area, the United Kingdom or Switzerland**, the first time you
+open the app it shows Google's form so you can accept or refuse personalised ads before any ad is
+loaded. You can change that choice at any time in *Settings → Quyền riêng tư quảng cáo* (ad
+privacy); it is also passed on to Google Analytics for Firebase (section 3).
 
-## 3. Usage statistics — Google Analytics for Firebase
+**Everywhere**, you can reset or delete your advertising ID in *Android Settings → Google → Ads* (the
+exact menu name varies slightly between devices); once it is deleted, ads are no longer personalised
+by that ID.
 
-To learn how the app is used, the Google Analytics for Firebase SDK automatically sends Google:
+*Version 2.6:* shows no consent form; resetting your advertising ID as above is how you turn off
+personalised ads.
+
+## 3. Usage statistics and crash reports — Google Analytics for Firebase, Firebase Crashlytics
+
+**Usage statistics.** To learn how the app is used, the Google Analytics for Firebase SDK
+automatically sends Google:
 
 - a random app-instance ID that Firebase creates for each installation, and your Android
   advertising ID;
 - your approximate location, which Google derives from your IP address;
-- automatic events: first launch, sessions, screens opened, app updates.
+- automatic events: first open, sessions, screens viewed, app updates;
+- once, after upgrading to 3.0.0: the **number** of favourite songs carried over to the new version —
+  a count only, with no song titles.
 
-The app sends no events of its own: not the songs you read, not the words you search for. These
-events contain no names, email addresses or anything that identifies you. We only look at them
-in aggregate.
+The app does not send the titles of songs you read or the words you search for. These events contain
+no names, email addresses or anything that identifies you. We only look at them in aggregate.
 
-## 4. Crash reports — Firebase Crashlytics
+*Version 2.6* sends the same automatic events as above, without the count of favourites carried
+over to the new version.
 
-When the app hits an error and closes unexpectedly, the Firebase Crashlytics SDK sends Google a
-crash report so that we can find and fix the problem. The report contains:
+**Crash reports.** When the app hits an error and closes unexpectedly, the Firebase Crashlytics SDK
+sends Google a crash report so that we can find and fix the problem. The report contains:
 
 - a stack trace: which part of the code was running when the error happened;
 - device information: make and model, Android version, memory and free storage, screen
@@ -220,37 +293,62 @@ crash report so that we can find and fix the problem. The report contains:
 
 The report contains no favourites, searches or anything you type.
 
+## 4. Device permissions
+
+The app asks for internet and network-state access (to show ads, send song requests and download new
+song data), vibration (when you long-press a song to save it as a favourite), and access to the
+advertising ID (for section 2). Android's background-work library adds permission to keep the device
+awake while a data download is running. The app does **not** ask for shared-storage, notification or
+phone-state access, and does not read your phone number, IMEI or contacts.
+
+*Version 2.6* also asks for read and write access to shared storage, for the old backup in section 1.
+
 ## 5. Song requests and feedback
 
 **Song requests.** When you tap *Send* on the song request screen, the app sends HaDoSolution's
-server exactly what you filled in — title, composer, singer, notes — together with the app name and
-version, over an encrypted HTTPS connection. With it goes a **random code the app creates once per
-install**, used only to look up the status of the song requests you sent (the *Yêu cầu của tôi*
-screen): the app asks the server which requests now have a song, and the server answers for that
-code. The code holds nothing about you — not your name, email or phone number — and reinstalling
-the app creates a new one. Like any internet connection, the server also sees your IP address. We
-use requests to choose which songs to add and to tell you in the app when a song is available.
-Please do not put personal information in the notes field.
+server exactly what you filled in — title, composer, singer, notes — together with the app
+name and version, over an encrypted HTTPS connection. With it goes a **random code the app creates
+once per install**, used only to look up the status of the requests you sent.
+
+When you open the app and some requests are still being handled, the app asks the server for that
+code (at most once an hour) which requests have moved on — accepted, lyrics being written, song
+available, or not possible — and tells you inside the app. The app sends **no** push notifications
+and does not ask for notification permission.
+
+The code holds nothing about you — not your name, email or phone number — and reinstalling the app
+creates a new one (unless Android restores the backup in section 1, in which case the new phone keeps
+the old code so you can still follow your requests). Like any internet connection, the server also
+sees your IP address. We use requests to choose which songs to add and to tell you in the app when a
+song is available. Please do not put personal information in the notes field.
 
 **Feedback by email.** The feedback option opens your email app. When you send a message we receive
 your email address and the message, and we use them only to reply to you.
 
-## 6. Sharing
+## 6. Downloading new song data
 
-The data in sections 2, 3 and 4 goes to Google, which provides those services; for ads, Google
-may share the data in section 2 further under the Google policy linked there. Song requests and
-feedback emails reach only us. We send your data to no one else, and we do not sell it.
+*From version 3.0.0.* So that new songs arrive without waiting for an update on Google Play, the app
+checks once a day while the device is on Wi-Fi — or when you tap *Update data* in Settings — whether
+a newer set of song data exists, and downloads it. You can turn automatic downloads off in *Settings
+→ Download new data automatically*.
 
-## 7. Device permissions
+The data comes from HaDoSolution's server (`api.code2smile.com`), or from GitHub when our server does
+not answer. These are static files: the app only asks for the file and **sends no code about you**.
+Like any internet connection, the server delivering the file — ours, or GitHub, Inc.'s — sees your
+device's IP address; GitHub handles it under the [GitHub General Privacy
+Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
+Downloaded data is digitally signed and checked before it is used.
 
-The app asks for internet and network-state access (to show ads and send song requests), vibration
-(when you long-press a song to save it as a favourite), and read and write access to shared storage (for
-the backup in section 1). The app does not ask for phone-state access,
-and does **not** read your phone number, IMEI or contacts.
+## 7. Sharing
+
+The data in sections 2 and 3 goes to Google, which provides those services; for ads, Google may
+share the data in section 2 further under the Google policy linked there. Song requests and feedback
+emails reach only us. Apart from the IP address GitHub sees when the app downloads data (section 6),
+we send your data to no one else, and we do not sell it.
 
 ## 8. Security
 
-All data sent by the Google SDKs, and every song request, is encrypted in transit.
+All data sent by the Google SDKs, every song request and every song data download travel over
+encrypted connections.
 
 ## 9. Children
 
@@ -259,11 +357,11 @@ under 13.
 
 ## 10. Your rights
 
-Because the app has no accounts, we have no way to link the data in sections 2, 3 and 4 to a
-particular person, so we cannot look up your data to delete it on request. You stay in control:
-clear the data on your device (section 1) and reset your advertising ID (section 2). To have a song
-request or feedback email deleted, or for any other question, write to us at the address in
-section 12.
+Because the app has no accounts, we have no way to link the data in sections 2 and 3 to a particular
+person, so we cannot look up your data to delete it on request. You stay in control: clear your
+history or all data on your device (section 1), reset your advertising ID (section 2), and turn off
+automatic downloads (section 6). To have a song request or feedback email deleted, or for any other
+question, write to us at the address in section 12.
 
 ## 11. Changes to this policy
 
