@@ -112,7 +112,7 @@ Luan Vo. This policy explains how the app handles your data.
 
 ## Data stored on your device
 
-All lyrics list are bundled with the app and work offline. What you create in the
+The full song list is bundled with the app and works offline. What you create in the
 app is stored on your device only: your favourite songs, your settings
 (number of search results, lyric text size) and the app's own status.
 We never receive this data. Deleting the app deletes it.
