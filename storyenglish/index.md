@@ -4,7 +4,7 @@ title: ESL English — Privacy Policy
 
 # Privacy Policy for ESL English
 
-_Last updated: 20 October 2026_
+_Last updated: 13 November 2026_
 
 This policy explains what information the Android app **ESL English**
 (package `com.hadoso.android.storyenglish`, "the app") collects, why, and what
@@ -58,15 +58,17 @@ How Google uses this data: <https://policies.google.com/technologies/partner-sit
 
 To understand how the app is used and improve it, Google Analytics for Firebase
 collects app-instance and advertising identifiers, a coarse location derived
-from a masked IP address, and app usage events such as sessions and screen
-views. This data is not linked to your name or any account.
+from a masked IP address, and app usage events such as sessions, screen
+views, and which stories are opened, played to the end or downloaded, and
+whether audio was streamed or played from the device. This data is not linked
+to your name or any account.
 
 Google's privacy policy: <https://policies.google.com/privacy>
 
 ### Crash reports — Firebase Crashlytics
 
-If the app crashes or stops responding, Firebase Crashlytics sends a crash
-report so we can fix the problem. A report contains the technical details of
+If the app crashes or stops responding, or a story's audio fails to play or
+download, Firebase Crashlytics sends a report so we can fix the problem. A report contains the technical details of
 the error (such as the stack trace), the app version, the device model and
 Android version, and an installation identifier. It does not contain your
 stories, settings or any personal content.
