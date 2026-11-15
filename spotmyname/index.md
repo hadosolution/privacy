@@ -1,12 +1,12 @@
 <!--
-Nội dung chính sách quyền riêng tư để tác giả đăng lên web (quyết định 34). App mở URL
-của trang đã đăng, không đọc file này. Điền [EMAIL LIÊN HỆ] và ngày hiệu lực trước khi đăng;
-sửa khi app thu thập thêm dữ liệu hoặc thêm SDK.
+Nội dung chính sách quyền riêng tư tác giả đăng lên web (quyết định 34). App mở URL của trang
+đã đăng, không đọc file này. Sửa ở đây rồi đăng lại khi app thu thập thêm dữ liệu hoặc thêm
+SDK, và đổi ngày hiệu lực.
 -->
 
 # Chính sách quyền riêng tư — SpotMyName
 
-*Hiệu lực từ: [NGÀY ĐĂNG]*
+*Hiệu lực từ: 15/11/2026*
 
 SpotMyName ("ứng dụng") do Hadoso phát triển. Trang này nói rõ ứng dụng dùng dữ liệu gì,
 vì sao, và bạn kiểm soát nó thế nào.
@@ -51,13 +51,13 @@ khởi động thư viện quảng cáo nữa.
 
 ## Liên hệ
 
-Câu hỏi về quyền riêng tư: [EMAIL LIÊN HỆ]
+Câu hỏi về quyền riêng tư: hadosolution@gmail.com
 
 ---
 
 # Privacy Policy — SpotMyName
 
-*Effective: [PUBLISH DATE]*
+*Effective: November 15, 2026*
 
 SpotMyName ("the app") is made by Hadoso. This page explains what data the app uses, why, and
 how you control it.
@@ -102,4 +102,4 @@ children's data.
 
 ## Contact
 
-Privacy questions: [CONTACT EMAIL]
+Privacy questions: hadosolution@gmail.com
